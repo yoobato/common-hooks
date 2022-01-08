@@ -9,7 +9,7 @@ Custom react hooks
 - [x] useConfirm
 - [x] usePreventLeave
 - [x] useBeforeLeave
-- [ ] useFadeIn
+- [x] useFadeIn
 - [ ] useFullscreen
 - [ ] useNetwork
 - [ ] useNotification
