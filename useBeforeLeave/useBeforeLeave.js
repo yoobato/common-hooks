@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // useBeforeLeave(() => console.log("Please don't leave"));
 export const useBeforeLeave = (onBefore) => {
     const handle = (event) => {
