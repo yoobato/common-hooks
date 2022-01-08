@@ -1,0 +1,24 @@
+{
+  "name": "@common-hooks/use-input",
+  "version": "1.0.0",
+  "description": "React Hook to use input element with custom validator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoobato/common-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "input"
+  ],
+  "author": "Daeyeol Ryu <yoobato@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoobato/common-hooks/issues"
+  },
+  "homepage": "https://github.com/yoobato/common-hooks#readme",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
