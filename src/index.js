@@ -1,10 +1,14 @@
-import { StrictMode, useEffect, useState } from "react";
+import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import { useInput } from "./useinput";
 import { useTabs } from "./usetabs";
 import { useTitle } from "./usetitle";
+import { useClick } from "./useclick";
 
+// Demo
 const App = () => {
+  const hello = useClick(() => console.log("Say Hello"));
+
   const titleUpdater = useTitle("Loading...");
   setTimeout(() => {
     titleUpdater("Home");
@@ -28,7 +32,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1 ref={hello}>Hello</h1>
       <input placeholder="Name" {...name} />
       <hr />
       <div>
