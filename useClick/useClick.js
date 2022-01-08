@@ -1,5 +1,7 @@
 import { useRef, useEffect } from "react";
 
+// const btn = useClick(() => console.log("Clicked"));
+// <button ref={btn}>Click</button>
 export const useClick = (onClick) => {
   const element = useRef();
 

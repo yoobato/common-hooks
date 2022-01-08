@@ -1,5 +1,7 @@
 import { useRef, useEffect } from "react";
 
+// const title = useHover(() => console.log("Hovered"));
+// <h1 ref={title}>Hello World</button>
 export const useHover = (onHover) => {
   const element = useRef();
 
