@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef } from "react";
 
 // const { element, enterFullscreen, exitFullscreen } = useFullscreen((isFull) => console.log("Is Full?", isFull));
 // <div ref={element} style={{ width: "400px", height: "300px", backgroundColor: "blue" }}>
