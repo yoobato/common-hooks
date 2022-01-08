@@ -11,7 +11,7 @@ Custom react hooks
 - [x] useBeforeLeave
 - [x] useFadeIn
 - [x] useNetwork
+- [x] useScroll
 - [ ] useFullscreen
 - [ ] useNotification
-- [ ] useScroll
 - [ ] useAxios
